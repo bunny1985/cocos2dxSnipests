@@ -201,9 +201,81 @@ CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey.cpp.o.provides: CMakeFiles/
 CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey.cpp.o.provides.build: CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey.cpp.o
 
 
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.o: CMakeFiles/DigitAdventures.dir/flags.make
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.o: Classes/Sprite/Harvey/HarveyAnimation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.o -c /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Harvey/HarveyAnimation.cpp
+
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Harvey/HarveyAnimation.cpp > CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.i
+
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Harvey/HarveyAnimation.cpp -o CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.s
+
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.o.requires:
+
+.PHONY : CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.o.requires
+
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.o.provides: CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.o.provides.build
+.PHONY : CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.o.provides
+
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.o.provides.build: CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.o
+
+
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.o: CMakeFiles/DigitAdventures.dir/flags.make
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.o: Classes/Sprite/Wepons/AbstractWepon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.o -c /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/AbstractWepon.cpp
+
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/AbstractWepon.cpp > CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.i
+
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/AbstractWepon.cpp -o CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.s
+
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.o.requires:
+
+.PHONY : CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.o.requires
+
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.o.provides: CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.o.requires
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.o.provides.build
+.PHONY : CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.o.provides
+
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.o.provides.build: CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.o
+
+
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o: CMakeFiles/DigitAdventures.dir/flags.make
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o: Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o -c /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp
+
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp > CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.i
+
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp -o CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.s
+
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o.requires:
+
+.PHONY : CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o.requires
+
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o.provides: CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o.requires
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o.provides.build
+.PHONY : CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o.provides
+
+CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o.provides.build: CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o
+
+
 CMakeFiles/DigitAdventures.dir/proj.linux/main.cpp.o: CMakeFiles/DigitAdventures.dir/flags.make
 CMakeFiles/DigitAdventures.dir/proj.linux/main.cpp.o: proj.linux/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DigitAdventures.dir/proj.linux/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/DigitAdventures.dir/proj.linux/main.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DigitAdventures.dir/proj.linux/main.cpp.o -c /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/proj.linux/main.cpp
 
 CMakeFiles/DigitAdventures.dir/proj.linux/main.cpp.i: cmake_force
@@ -233,6 +305,9 @@ DigitAdventures_OBJECTS = \
 "CMakeFiles/DigitAdventures.dir/Classes/GamePlay/GamePlayDirector.cpp.o" \
 "CMakeFiles/DigitAdventures.dir/Classes/HelloWorldScene.cpp.o" \
 "CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey.cpp.o" \
+"CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.o" \
+"CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.o" \
+"CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o" \
 "CMakeFiles/DigitAdventures.dir/proj.linux/main.cpp.o"
 
 # External object files for target DigitAdventures
@@ -244,6 +319,9 @@ bin/DigitAdventures: CMakeFiles/DigitAdventures.dir/Classes/Common/CommonFunctio
 bin/DigitAdventures: CMakeFiles/DigitAdventures.dir/Classes/GamePlay/GamePlayDirector.cpp.o
 bin/DigitAdventures: CMakeFiles/DigitAdventures.dir/Classes/HelloWorldScene.cpp.o
 bin/DigitAdventures: CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey.cpp.o
+bin/DigitAdventures: CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.o
+bin/DigitAdventures: CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.o
+bin/DigitAdventures: CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o
 bin/DigitAdventures: CMakeFiles/DigitAdventures.dir/proj.linux/main.cpp.o
 bin/DigitAdventures: CMakeFiles/DigitAdventures.dir/build.make
 bin/DigitAdventures: lib/libcocos2d.a
@@ -269,7 +347,7 @@ bin/DigitAdventures: cocos2d/external/chipmunk/prebuilt/linux/64-bit/libchipmunk
 bin/DigitAdventures: lib/libbullet.a
 bin/DigitAdventures: lib/librecast.a
 bin/DigitAdventures: CMakeFiles/DigitAdventures.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable bin/DigitAdventures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable bin/DigitAdventures"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DigitAdventures.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -283,6 +361,9 @@ CMakeFiles/DigitAdventures.dir/requires: CMakeFiles/DigitAdventures.dir/Classes/
 CMakeFiles/DigitAdventures.dir/requires: CMakeFiles/DigitAdventures.dir/Classes/GamePlay/GamePlayDirector.cpp.o.requires
 CMakeFiles/DigitAdventures.dir/requires: CMakeFiles/DigitAdventures.dir/Classes/HelloWorldScene.cpp.o.requires
 CMakeFiles/DigitAdventures.dir/requires: CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey.cpp.o.requires
+CMakeFiles/DigitAdventures.dir/requires: CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.o.requires
+CMakeFiles/DigitAdventures.dir/requires: CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.o.requires
+CMakeFiles/DigitAdventures.dir/requires: CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o.requires
 CMakeFiles/DigitAdventures.dir/requires: CMakeFiles/DigitAdventures.dir/proj.linux/main.cpp.o.requires
 
 .PHONY : CMakeFiles/DigitAdventures.dir/requires

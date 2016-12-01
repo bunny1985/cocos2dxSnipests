@@ -21,7 +21,7 @@ double CommonFunctions::GetAngleToRotateBetweenTwoPoints(Vec2 objectPosition,
 		auto myPosition = Director::getInstance()->convertToGL(objectPosition);
 		auto pointToRotate = Director::getInstance()->convertToGL(PointToFaceTo);
 		double angle = atan2 (myPosition.y-pointToRotate.y , myPosition.x-pointToRotate.x) * (180 / M_PI);
-		return angle;
+		return angle -90;
 }
 
 void CommonFunctions::centerViewOnPoint(Vec2 position) {

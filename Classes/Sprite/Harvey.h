@@ -10,6 +10,7 @@
 
 #include "cocos2d.h"
 #include "../Common/CommonFunctions.h"
+
 USING_NS_CC;
 
 class Harvey : public Sprite{
@@ -30,9 +31,14 @@ private:
     void onMouseUp(Event* event);
     void onMouseMove(Event* event);
     void onMouseScroll(Event* event);
+
+
     float speed;
-    MoveTo* movingAction;
+    Action* movingAction;
+
     void goToPoint(Vec2 destination);
+    void shotToPoint(Vec2 destination);
+
 
 };
 

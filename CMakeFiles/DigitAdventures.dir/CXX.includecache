@@ -65,12 +65,36 @@ Harvey.h
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Harvey.h
 math.h
 -
+audio/include/SimpleAudioEngine.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/audio/include/SimpleAudioEngine.h
+Harvey/HarveyAnimation.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Harvey/HarveyAnimation.h
 
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Harvey.h
 cocos2d.h
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/cocos2d.h
 ../Common/CommonFunctions.h
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Common/CommonFunctions.h
+
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Harvey/HarveyAnimation.cpp
+HarveyAnimation.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Harvey/HarveyAnimation.h
+
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Harvey/HarveyAnimation.h
+cocos2d.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Harvey/cocos2d.h
+
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/AbstractWepon.cpp
+AbstractWepon.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/AbstractWepon.h
+
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/AbstractWepon.h
+
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp
+AbstractBullet.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Bullets/AbstractBullet.h
+
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Bullets/AbstractBullet.h
 
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/proj.linux/main.cpp
 ../Classes/AppDelegate.h

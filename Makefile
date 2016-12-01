@@ -415,6 +415,87 @@ Classes/Sprite/Harvey.cpp.s:
 	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey.cpp.s
 .PHONY : Classes/Sprite/Harvey.cpp.s
 
+Classes/Sprite/Harvey/HarveyAnimation.o: Classes/Sprite/Harvey/HarveyAnimation.cpp.o
+
+.PHONY : Classes/Sprite/Harvey/HarveyAnimation.o
+
+# target to build an object file
+Classes/Sprite/Harvey/HarveyAnimation.cpp.o:
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.o
+.PHONY : Classes/Sprite/Harvey/HarveyAnimation.cpp.o
+
+Classes/Sprite/Harvey/HarveyAnimation.i: Classes/Sprite/Harvey/HarveyAnimation.cpp.i
+
+.PHONY : Classes/Sprite/Harvey/HarveyAnimation.i
+
+# target to preprocess a source file
+Classes/Sprite/Harvey/HarveyAnimation.cpp.i:
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.i
+.PHONY : Classes/Sprite/Harvey/HarveyAnimation.cpp.i
+
+Classes/Sprite/Harvey/HarveyAnimation.s: Classes/Sprite/Harvey/HarveyAnimation.cpp.s
+
+.PHONY : Classes/Sprite/Harvey/HarveyAnimation.s
+
+# target to generate assembly for a file
+Classes/Sprite/Harvey/HarveyAnimation.cpp.s:
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.s
+.PHONY : Classes/Sprite/Harvey/HarveyAnimation.cpp.s
+
+Classes/Sprite/Wepons/AbstractWepon.o: Classes/Sprite/Wepons/AbstractWepon.cpp.o
+
+.PHONY : Classes/Sprite/Wepons/AbstractWepon.o
+
+# target to build an object file
+Classes/Sprite/Wepons/AbstractWepon.cpp.o:
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.o
+.PHONY : Classes/Sprite/Wepons/AbstractWepon.cpp.o
+
+Classes/Sprite/Wepons/AbstractWepon.i: Classes/Sprite/Wepons/AbstractWepon.cpp.i
+
+.PHONY : Classes/Sprite/Wepons/AbstractWepon.i
+
+# target to preprocess a source file
+Classes/Sprite/Wepons/AbstractWepon.cpp.i:
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.i
+.PHONY : Classes/Sprite/Wepons/AbstractWepon.cpp.i
+
+Classes/Sprite/Wepons/AbstractWepon.s: Classes/Sprite/Wepons/AbstractWepon.cpp.s
+
+.PHONY : Classes/Sprite/Wepons/AbstractWepon.s
+
+# target to generate assembly for a file
+Classes/Sprite/Wepons/AbstractWepon.cpp.s:
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.s
+.PHONY : Classes/Sprite/Wepons/AbstractWepon.cpp.s
+
+Classes/Sprite/Wepons/Bullets/AbstractBullet.o: Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o
+
+.PHONY : Classes/Sprite/Wepons/Bullets/AbstractBullet.o
+
+# target to build an object file
+Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o:
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o
+.PHONY : Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o
+
+Classes/Sprite/Wepons/Bullets/AbstractBullet.i: Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.i
+
+.PHONY : Classes/Sprite/Wepons/Bullets/AbstractBullet.i
+
+# target to preprocess a source file
+Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.i:
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.i
+.PHONY : Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.i
+
+Classes/Sprite/Wepons/Bullets/AbstractBullet.s: Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.s
+
+.PHONY : Classes/Sprite/Wepons/Bullets/AbstractBullet.s
+
+# target to generate assembly for a file
+Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.s:
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.s
+.PHONY : Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.s
+
 proj.linux/main.o: proj.linux/main.cpp.o
 
 .PHONY : proj.linux/main.o
@@ -479,6 +560,15 @@ help:
 	@echo "... Classes/Sprite/Harvey.o"
 	@echo "... Classes/Sprite/Harvey.i"
 	@echo "... Classes/Sprite/Harvey.s"
+	@echo "... Classes/Sprite/Harvey/HarveyAnimation.o"
+	@echo "... Classes/Sprite/Harvey/HarveyAnimation.i"
+	@echo "... Classes/Sprite/Harvey/HarveyAnimation.s"
+	@echo "... Classes/Sprite/Wepons/AbstractWepon.o"
+	@echo "... Classes/Sprite/Wepons/AbstractWepon.i"
+	@echo "... Classes/Sprite/Wepons/AbstractWepon.s"
+	@echo "... Classes/Sprite/Wepons/Bullets/AbstractBullet.o"
+	@echo "... Classes/Sprite/Wepons/Bullets/AbstractBullet.i"
+	@echo "... Classes/Sprite/Wepons/Bullets/AbstractBullet.s"
 	@echo "... proj.linux/main.o"
 	@echo "... proj.linux/main.i"
 	@echo "... proj.linux/main.s"

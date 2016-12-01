@@ -84,9 +84,9 @@ bool HelloWorld::init()
 
     // add the sprite as a child to this layer
     this->addChild(sprite, 0);
-     _mouseListener = EventListenerMouse::create();
-    _mouseListener->onMouseDown = CC_CALLBACK_1(HelloWorld::onMouseDown, this);
-    Director::getInstance()->getEventDispatcher()->addEventListenerWithSceneGraphPriority(_mouseListener, this);
+//     _mouseListener = EventListenerMouse::create();
+//    _mouseListener->onMouseDown = CC_CALLBACK_1(HelloWorld::onMouseDown, this);
+//    Director::getInstance()->getEventDispatcher()->addEventListenerWithSceneGraphPriority(_mouseListener, this);
     return true;
 }
 
