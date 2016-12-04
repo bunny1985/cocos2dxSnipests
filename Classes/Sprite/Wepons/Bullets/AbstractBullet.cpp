@@ -8,7 +8,8 @@
 #include "AbstractBullet.h"
 
 AbstractBullet::AbstractBullet() {
-	// TODO Auto-generated constructor stub
+	this->maxRange =200;
+	this->speed = 50;
 
 }
 

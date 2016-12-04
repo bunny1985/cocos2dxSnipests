@@ -15,8 +15,12 @@ public:
     void onMouseDown(cocos2d::Event* event);
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
+     static HelloWorld* getInstance();
+
+     static HelloWorld* instance;
 private:
     cocos2d::EventListenerMouse* _mouseListener;
+
 };
 
 #endif // __HELLOWORLD_SCENE_H__

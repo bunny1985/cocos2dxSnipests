@@ -13,6 +13,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Harvey/HarveyAnimation.cpp" "/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.o"
   "/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/AbstractWepon.cpp" "/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.o"
   "/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp" "/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o"
+  "/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Bullets/Bullet.cpp" "/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/Bullet.cpp.o"
+  "/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Gun.cpp" "/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Gun.cpp.o"
   "/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/proj.linux/main.cpp" "/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles/DigitAdventures.dir/proj.linux/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.o"
   "CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/AbstractWepon.cpp.o"
   "CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.o"
+  "CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/Bullet.cpp.o"
+  "CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Gun.cpp.o"
   "CMakeFiles/DigitAdventures.dir/proj.linux/main.cpp.o"
   "bin/DigitAdventures.pdb"
   "bin/DigitAdventures"

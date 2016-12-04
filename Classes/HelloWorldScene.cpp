@@ -4,6 +4,7 @@
 
 #include "Commands/MainControlls/ExitCommand.h"
 USING_NS_CC;
+HelloWorld* HelloWorld::instance = 0;
 
 Scene* HelloWorld::createScene()
 {
@@ -15,7 +16,7 @@ Scene* HelloWorld::createScene()
 
     // add layer as a child to scene
     scene->addChild(layer);
-
+    HelloWorld::instance = layer;
     // return the scene
     return scene;
 }
@@ -87,6 +88,7 @@ bool HelloWorld::init()
 //     _mouseListener = EventListenerMouse::create();
 //    _mouseListener->onMouseDown = CC_CALLBACK_1(HelloWorld::onMouseDown, this);
 //    Director::getInstance()->getEventDispatcher()->addEventListenerWithSceneGraphPriority(_mouseListener, this);
+
     return true;
 }
 
@@ -111,4 +113,8 @@ void HelloWorld::onMouseDown(cocos2d::Event* event) {
 	    // add the sprite as a child to this layer
 	 this->addChild(sprite);
 
+}
+
+HelloWorld* HelloWorld::getInstance() {
+	return HelloWorld::instance;
 }

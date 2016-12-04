@@ -496,6 +496,60 @@ Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.s:
 	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.s
 .PHONY : Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp.s
 
+Classes/Sprite/Wepons/Bullets/Bullet.o: Classes/Sprite/Wepons/Bullets/Bullet.cpp.o
+
+.PHONY : Classes/Sprite/Wepons/Bullets/Bullet.o
+
+# target to build an object file
+Classes/Sprite/Wepons/Bullets/Bullet.cpp.o:
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/Bullet.cpp.o
+.PHONY : Classes/Sprite/Wepons/Bullets/Bullet.cpp.o
+
+Classes/Sprite/Wepons/Bullets/Bullet.i: Classes/Sprite/Wepons/Bullets/Bullet.cpp.i
+
+.PHONY : Classes/Sprite/Wepons/Bullets/Bullet.i
+
+# target to preprocess a source file
+Classes/Sprite/Wepons/Bullets/Bullet.cpp.i:
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/Bullet.cpp.i
+.PHONY : Classes/Sprite/Wepons/Bullets/Bullet.cpp.i
+
+Classes/Sprite/Wepons/Bullets/Bullet.s: Classes/Sprite/Wepons/Bullets/Bullet.cpp.s
+
+.PHONY : Classes/Sprite/Wepons/Bullets/Bullet.s
+
+# target to generate assembly for a file
+Classes/Sprite/Wepons/Bullets/Bullet.cpp.s:
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Bullets/Bullet.cpp.s
+.PHONY : Classes/Sprite/Wepons/Bullets/Bullet.cpp.s
+
+Classes/Sprite/Wepons/Gun.o: Classes/Sprite/Wepons/Gun.cpp.o
+
+.PHONY : Classes/Sprite/Wepons/Gun.o
+
+# target to build an object file
+Classes/Sprite/Wepons/Gun.cpp.o:
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Gun.cpp.o
+.PHONY : Classes/Sprite/Wepons/Gun.cpp.o
+
+Classes/Sprite/Wepons/Gun.i: Classes/Sprite/Wepons/Gun.cpp.i
+
+.PHONY : Classes/Sprite/Wepons/Gun.i
+
+# target to preprocess a source file
+Classes/Sprite/Wepons/Gun.cpp.i:
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Gun.cpp.i
+.PHONY : Classes/Sprite/Wepons/Gun.cpp.i
+
+Classes/Sprite/Wepons/Gun.s: Classes/Sprite/Wepons/Gun.cpp.s
+
+.PHONY : Classes/Sprite/Wepons/Gun.s
+
+# target to generate assembly for a file
+Classes/Sprite/Wepons/Gun.cpp.s:
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Wepons/Gun.cpp.s
+.PHONY : Classes/Sprite/Wepons/Gun.cpp.s
+
 proj.linux/main.o: proj.linux/main.cpp.o
 
 .PHONY : proj.linux/main.o
@@ -569,6 +623,12 @@ help:
 	@echo "... Classes/Sprite/Wepons/Bullets/AbstractBullet.o"
 	@echo "... Classes/Sprite/Wepons/Bullets/AbstractBullet.i"
 	@echo "... Classes/Sprite/Wepons/Bullets/AbstractBullet.s"
+	@echo "... Classes/Sprite/Wepons/Bullets/Bullet.o"
+	@echo "... Classes/Sprite/Wepons/Bullets/Bullet.i"
+	@echo "... Classes/Sprite/Wepons/Bullets/Bullet.s"
+	@echo "... Classes/Sprite/Wepons/Gun.o"
+	@echo "... Classes/Sprite/Wepons/Gun.i"
+	@echo "... Classes/Sprite/Wepons/Gun.s"
 	@echo "... proj.linux/main.o"
 	@echo "... proj.linux/main.i"
 	@echo "... proj.linux/main.s"

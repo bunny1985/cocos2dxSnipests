@@ -233,7 +233,7 @@ cocos2d/external/bullet/preinstall:
 cocos2d/external/bullet/CMakeFiles/bullet.dir/all:
 	$(MAKE) -f cocos2d/external/bullet/CMakeFiles/bullet.dir/build.make cocos2d/external/bullet/CMakeFiles/bullet.dir/depend
 	$(MAKE) -f cocos2d/external/bullet/CMakeFiles/bullet.dir/build.make cocos2d/external/bullet/CMakeFiles/bullet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target bullet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target bullet"
 .PHONY : cocos2d/external/bullet/CMakeFiles/bullet.dir/all
 
 # Include target in all.
@@ -243,7 +243,7 @@ all: cocos2d/external/bullet/CMakeFiles/bullet.dir/all
 
 # Build rule for subdir invocation for target.
 cocos2d/external/bullet/CMakeFiles/bullet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles 20
 	$(MAKE) -f CMakeFiles/Makefile2 cocos2d/external/bullet/CMakeFiles/bullet.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles 0
 .PHONY : cocos2d/external/bullet/CMakeFiles/bullet.dir/rule
@@ -570,7 +570,7 @@ cocos2d/cocos/CMakeFiles/cocos2d.dir/all: cocos2d/external/xxhash/CMakeFiles/xxh
 cocos2d/cocos/CMakeFiles/cocos2d.dir/all: cocos2d/cocos/CMakeFiles/cocos2dInternal.dir/all
 	$(MAKE) -f cocos2d/cocos/CMakeFiles/cocos2d.dir/build.make cocos2d/cocos/CMakeFiles/cocos2d.dir/depend
 	$(MAKE) -f cocos2d/cocos/CMakeFiles/cocos2d.dir/build.make cocos2d/cocos/CMakeFiles/cocos2d.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles --progress-num=21 "Built target cocos2d"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles --progress-num= "Built target cocos2d"
 .PHONY : cocos2d/cocos/CMakeFiles/cocos2d.dir/all
 
 # Include target in all.
@@ -621,7 +621,7 @@ all: cocos2d/cocos/CMakeFiles/cocos2dInternal.dir/all
 
 # Build rule for subdir invocation for target.
 cocos2d/cocos/CMakeFiles/cocos2dInternal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles 97
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles 98
 	$(MAKE) -f CMakeFiles/Makefile2 cocos2d/cocos/CMakeFiles/cocos2dInternal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/CMakeFiles 0
 .PHONY : cocos2d/cocos/CMakeFiles/cocos2dInternal.dir/rule

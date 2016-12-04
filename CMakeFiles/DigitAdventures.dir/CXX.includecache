@@ -60,6 +60,16 @@ Commands/MainControlls/ExitCommand.h
 cocos2d.h
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/cocos2d.h
 
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/./Wepons/./AbstractWepon.h
+cocos2d.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/./Wepons/./cocos2d.h
+
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/./Wepons/Gun.h
+cocos2d.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/./Wepons/cocos2d.h
+./AbstractWepon.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/./Wepons/./AbstractWepon.h
+
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Harvey.cpp
 Harvey.h
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Harvey.h
@@ -75,6 +85,8 @@ cocos2d.h
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/cocos2d.h
 ../Common/CommonFunctions.h
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Common/CommonFunctions.h
+./Wepons/Gun.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/./Wepons/Gun.h
 
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Harvey/HarveyAnimation.cpp
 HarveyAnimation.h
@@ -84,17 +96,61 @@ HarveyAnimation.h
 cocos2d.h
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Harvey/cocos2d.h
 
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/./AbstractWepon.h
+cocos2d.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/./cocos2d.h
+
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/./Bullets/./AbstractBullet.h
+cocos2d.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/./Bullets/./cocos2d.h
+
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/./Bullets/Bullet.h
+./AbstractBullet.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/./Bullets/./AbstractBullet.h
+
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/AbstractWepon.cpp
 AbstractWepon.h
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/AbstractWepon.h
+./Bullets/Bullet.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/./Bullets/Bullet.h
+audio/include/SimpleAudioEngine.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/audio/include/SimpleAudioEngine.h
 
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/AbstractWepon.h
+cocos2d.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/cocos2d.h
+
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Bullets/./AbstractBullet.h
+cocos2d.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Bullets/./cocos2d.h
 
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Bullets/AbstractBullet.cpp
 AbstractBullet.h
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Bullets/AbstractBullet.h
 
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Bullets/AbstractBullet.h
+cocos2d.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Bullets/cocos2d.h
+
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Bullets/Bullet.cpp
+Bullet.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Bullets/Bullet.h
+../../../HelloWorldScene.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/HelloWorldScene.h
+
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Bullets/Bullet.h
+./AbstractBullet.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Bullets/./AbstractBullet.h
+
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Gun.cpp
+Gun.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Gun.h
+
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/Gun.h
+cocos2d.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/cocos2d.h
+./AbstractWepon.h
+/home/michal/Projects/DigitAdv2/digitAdventuresRemastered/Classes/Sprite/Wepons/./AbstractWepon.h
 
 /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/proj.linux/main.cpp
 ../Classes/AppDelegate.h

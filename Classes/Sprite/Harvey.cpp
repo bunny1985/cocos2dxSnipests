@@ -30,6 +30,9 @@ Harvey* Harvey::create() {
 		node->speed = 300;
 		node->movingAction = nullptr;
 		node->schedule(schedule_selector(Harvey::update), 0.01);
+		auto gun = Gun::create();
+		node->addChild(gun);
+		node->gun = gun;
 		return node;
 	}
 
@@ -52,12 +55,12 @@ void Harvey::addEvents() {
 void Harvey::onMouseDown(Event* event) {
 	EventMouse* e = (EventMouse*)event;
 	auto size = Director::getInstance()->getVisibleSize();
-	Vec2  destination = Vec2(size/2 , e->getLocationInView());
+	Vec2  vectorToMove = Vec2(size/2 , e->getLocationInView());
 	if(e->getMouseButton()==MOUSEBUTTON_RIGHT){
 
-		this->goToPoint(this->getPosition() + destination);
+		this->goToPoint(this->getPosition() + vectorToMove);
 	}else if( e->getMouseButton()==MOUSEBUTTON_LEFT){
-		this->shotToPoint(this->getPosition() + destination);
+		this->shotToPoint(this->getPosition() + vectorToMove);
 	}
 
 
@@ -67,11 +70,18 @@ void Harvey::onMouseDown(Event* event) {
 
 
 void Harvey::onMouseUp(Event* event) {
+	EventMouse* e = (EventMouse*)event;
+	if( e->getMouseButton()==MOUSEBUTTON_LEFT){
+		this->gun->stopShooting();
+	}
 }
 
 void Harvey::onMouseMove(Event* event) {
 	EventMouse* e = (EventMouse*)event;
 	auto size = Director::getInstance()->getVisibleSize();
+	Vec2  vectorTopointer = Vec2(size/2 , e->getLocationInView());
+
+	this->gun->viewfinderPosition = this->getPosition() + vectorTopointer;
 	double angle = CommonFunctions::GetAngleToRotateBetweenTwoPoints(Vec2(size.width/2 , size.height/2) , e->getLocationInView());
 	this->setRotation(angle);
 
@@ -101,7 +111,5 @@ void Harvey::update(float delta) {
 }
 
 void Harvey::shotToPoint(Vec2 destination) {
-
-	auto audio = CocosDenshion::SimpleAudioEngine::getInstance();
-	audio->playEffect("shots/pistol.wav");
+	this->gun->startShooting();
 }

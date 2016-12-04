@@ -11,6 +11,7 @@
 
 #include "cocos2d.h"
 
+
 USING_NS_CC;
 
 
@@ -20,6 +21,7 @@ public:
 	virtual ~HarveyAnimation();
 	static HarveyAnimation* create(float duration );
 	static HarveyAnimation* create(Animation*);
+
 };
 
 #endif /* CLASSES_SPRITE_HARVEY_HARVEYANIMATION_H_ */

@@ -10,7 +10,7 @@
 
 #include "cocos2d.h"
 #include "../Common/CommonFunctions.h"
-
+#include "./Wepons/Gun.h"
 USING_NS_CC;
 
 class Harvey : public Sprite{
@@ -20,7 +20,7 @@ public:
 	static Harvey* create();
 protected:
 	virtual void update(float delta);
-
+	Gun* gun;
 private:
 	void addEvents();
 
