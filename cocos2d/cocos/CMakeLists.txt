@@ -167,6 +167,7 @@ if(USE_CHIPMUNK)
   cocos_use_pkg(cocos2dInternal CHIPMUNK)
 endif()
 
+
 if(USE_BOX2D)
   cocos_use_pkg(cocos2dInternal Box2D)
 endif()

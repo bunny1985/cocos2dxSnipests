@@ -26,7 +26,10 @@ AbstractWepon::~AbstractWepon() {
 void AbstractWepon::shoot() {
 	auto audio = CocosDenshion::SimpleAudioEngine::getInstance();
 		audio->playEffect("shots/pistol.wav");
-		Bullet::create(2000.0 , this->viewfinderPosition , this->getParent()->getPosition());
+		Vec2 moveVector =  this->viewfinderPosition - this->getParent()->getPosition()  ;
+		moveVector.normalize();
+
+		Bullet::create(500.0 , this->viewfinderPosition ,  this->getParent()->getPosition() + (moveVector*45)) ;
 }
 
 void AbstractWepon::stopShooting() {
@@ -34,6 +37,7 @@ void AbstractWepon::stopShooting() {
 }
 
 void AbstractWepon::startShooting() {
+	//this->getScheduler()->schedule(schedule_selector(AbstractWepon::shootCallback) , this , this->pauseBetweenShots)
 	this->schedule(schedule_selector(AbstractWepon::shootCallback) , this->pauseBetweenShots);
 
 

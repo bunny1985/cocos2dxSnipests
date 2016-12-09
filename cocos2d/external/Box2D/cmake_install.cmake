@@ -1,4 +1,4 @@
-# Install script for directory: /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/cocos2d/external/xxhash
+# Install script for directory: /home/michal/Projects/DigitAdv2/digitAdventuresRemastered/cocos2d/external/Box2D
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

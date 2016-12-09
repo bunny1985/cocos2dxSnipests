@@ -442,6 +442,33 @@ Classes/Sprite/Harvey/HarveyAnimation.cpp.s:
 	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Harvey/HarveyAnimation.cpp.s
 .PHONY : Classes/Sprite/Harvey/HarveyAnimation.cpp.s
 
+Classes/Sprite/Objects/SimpleBox.o: Classes/Sprite/Objects/SimpleBox.cpp.o
+
+.PHONY : Classes/Sprite/Objects/SimpleBox.o
+
+# target to build an object file
+Classes/Sprite/Objects/SimpleBox.cpp.o:
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Objects/SimpleBox.cpp.o
+.PHONY : Classes/Sprite/Objects/SimpleBox.cpp.o
+
+Classes/Sprite/Objects/SimpleBox.i: Classes/Sprite/Objects/SimpleBox.cpp.i
+
+.PHONY : Classes/Sprite/Objects/SimpleBox.i
+
+# target to preprocess a source file
+Classes/Sprite/Objects/SimpleBox.cpp.i:
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Objects/SimpleBox.cpp.i
+.PHONY : Classes/Sprite/Objects/SimpleBox.cpp.i
+
+Classes/Sprite/Objects/SimpleBox.s: Classes/Sprite/Objects/SimpleBox.cpp.s
+
+.PHONY : Classes/Sprite/Objects/SimpleBox.s
+
+# target to generate assembly for a file
+Classes/Sprite/Objects/SimpleBox.cpp.s:
+	$(MAKE) -f CMakeFiles/DigitAdventures.dir/build.make CMakeFiles/DigitAdventures.dir/Classes/Sprite/Objects/SimpleBox.cpp.s
+.PHONY : Classes/Sprite/Objects/SimpleBox.cpp.s
+
 Classes/Sprite/Wepons/AbstractWepon.o: Classes/Sprite/Wepons/AbstractWepon.cpp.o
 
 .PHONY : Classes/Sprite/Wepons/AbstractWepon.o
@@ -617,6 +644,9 @@ help:
 	@echo "... Classes/Sprite/Harvey/HarveyAnimation.o"
 	@echo "... Classes/Sprite/Harvey/HarveyAnimation.i"
 	@echo "... Classes/Sprite/Harvey/HarveyAnimation.s"
+	@echo "... Classes/Sprite/Objects/SimpleBox.o"
+	@echo "... Classes/Sprite/Objects/SimpleBox.i"
+	@echo "... Classes/Sprite/Objects/SimpleBox.s"
 	@echo "... Classes/Sprite/Wepons/AbstractWepon.o"
 	@echo "... Classes/Sprite/Wepons/AbstractWepon.i"
 	@echo "... Classes/Sprite/Wepons/AbstractWepon.s"

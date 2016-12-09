@@ -14,31 +14,36 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration buildProperties="" description="" id="0.1527897623" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="0.1527897623" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
 					<folderInfo id="0.1527897623." name="/" resourcePath="">
 						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.2142019436" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
 							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.2142019436.1970907502" name=""/>
-							<builder id="org.eclipse.cdt.build.core.settings.default.builder.1203920598" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
+							<builder autoBuildTarget="all" cleanBuildTarget="clean" enableAutoBuild="false" enableCleanBuild="true" enabledIncrementalBuild="true" id="org.eclipse.cdt.build.core.settings.default.builder.1203920598" incrementalBuildTarget="all" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.100818470" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.264787496" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
 								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.800626779" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="CC_TARGET_PLATFORM=5"/>
+									<listOptionValue builtIn="false" value="CC_ENABLE_BOX2D_INTEGRATION=1"/>
 								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.565771883" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.2112977663" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1720507955" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Digit/cocos2d/cocos}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Digit/cocos2d/external}&quot;"/>
 								</option>
 								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.2132510328" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="CC_TARGET_PLATFORM=5"/>
 									<listOptionValue builtIn="false" value="LINUX=1"/>
+									<listOptionValue builtIn="false" value="CC_ENABLE_BOX2D_INTEGRATION=1"/>
+									<listOptionValue builtIn="false" value="USE_BOX2D=1"/>
 								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.331066988" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.1467481036" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
 								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.899729379" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="CC_TARGET_PLATFORM=5"/>
+									<listOptionValue builtIn="false" value="CC_ENABLE_BOX2D_INTEGRATION=1"/>
 								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.181989092" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
@@ -49,9 +54,8 @@
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 			<storageModule moduleId="de.marw.cdt.cmake.core.settings">
 				<linux command="cmake" generator="UnixMakefiles" use-default="true">
-					<defs/>
-					<undefs/>
 				</linux>
+				<options/>
 			</storageModule>
 		</cconfiguration>
 	</storageModule>

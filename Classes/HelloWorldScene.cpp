@@ -1,16 +1,30 @@
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
 #include "Sprite/Harvey.h"
+#include "Sprite/Objects/SimpleBox.h"
 
 #include "Commands/MainControlls/ExitCommand.h"
+#import "chipmunk/include/chipmunk/chipmunk.h"
+
+#import "chipmunk/include/chipmunk/cpSpace.h"
+
+//#include "Box2D/Box2D.h"
 USING_NS_CC;
+
+
 HelloWorld* HelloWorld::instance = 0;
 
 Scene* HelloWorld::createScene()
 {
     // 'scene' is an autorelease object
-    auto scene = Scene::create();
-    
+    auto scene = Scene::createWithPhysics();
+
+    PhysicsWorld* phisics = scene->getPhysicsWorld();
+
+
+    phisics->setGravity(Vec2(0.0 , 0.0));
+
+    phisics->setDebugDrawMask(PhysicsWorld::DEBUGDRAW_ALL);
     // 'layer' is an autorelease object
     auto layer = HelloWorld::create();
 
@@ -42,18 +56,8 @@ bool HelloWorld::init()
 
 
 
-    MenuItemImage* closeItem =   MenuItemImage::create(
-                                           "CloseNormal.png",
-                                           "CloseSelected.png",
-                                           CC_CALLBACK_1(HelloWorld::menuCloseCallback, this));
     
-    closeItem->setPosition(Vec2(origin.x + visibleSize.width - closeItem->getContentSize().width/2 ,
-                                origin.y + closeItem->getContentSize().height/2));
 
-
-    auto menu = Menu::create(closeItem, NULL);
-    menu->setPosition(Vec2::ZERO);
-    this->addChild(menu, 1);
 
     /////////////////////////////
     // 3. add your codes below...
@@ -83,6 +87,11 @@ bool HelloWorld::init()
     // position the sprite on the center of the screen
     sprite->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
 
+    auto box = SimpleBox::create();
+    box->setPosition(Vec2(visibleSize.width/2 + origin.x + 200, visibleSize.height/2 + origin.y));
+    this->addChild(box);
+
+
     // add the sprite as a child to this layer
     this->addChild(sprite, 0);
 //     _mouseListener = EventListenerMouse::create();
@@ -93,28 +102,19 @@ bool HelloWorld::init()
 }
 
 
-void HelloWorld::menuCloseCallback(Ref* pSender)
-{
-    ExitCommand().execute();
 
-}
 
-void HelloWorld::onMouseDown(cocos2d::Event* event) {
-	EventMouse* e = (EventMouse*)event;
-	auto size = Director::getInstance()->getVisibleSize();
-	Vec2  destination = Vec2(size/2 , e->getLocationInView());
 
-	CCLOG("Adding sprite");
-
-	 auto sprite = Sprite::create("ball.png");
-	    // position the sprite on the center of the screen
-	 sprite->setPosition(e->getLocationInView());
-
-	    // add the sprite as a child to this layer
-	 this->addChild(sprite);
-
-}
 
 HelloWorld* HelloWorld::getInstance() {
 	return HelloWorld::instance;
+}
+
+void HelloWorld::initPhisics() {
+//	b2Vec2 gravity;
+//	gravity.Set(0.0f, 0.0f);
+//    world = new b2World(gravity);
+//    world->SetAllowSleeping(true);
+//    world->SetContinuousPhysics(true);
+
 }

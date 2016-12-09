@@ -39,7 +39,16 @@ set(BUILD_CPP_EMPTY_TEST OFF CACHE BOOL "turn off build cpp-empty-test")
 set(BUILD_CPP_TESTS OFF CACHE BOOL "turn off build cpp-tests")
 set(BUILD_LUA_LIBS OFF CACHE BOOL "turn off build lua related targets")
 set(BUILD_JS_LIBS OFF CACHE BOOL "turn off build js related targets")
+
+
+
 add_subdirectory(${COCOS2D_ROOT})
+
+
+
+
+
+
 
 # Some macro definitions
 if(WINDOWS)
@@ -75,7 +84,7 @@ else()
   set(CMAKE_C_FLAGS_DEBUG "-g -Wall -DCOCOS2D_DEBUG=1")
   set(CMAKE_CXX_FLAGS_DEBUG ${CMAKE_C_FLAGS_DEBUG})
   set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c99")
-  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wno-deprecated-declarations -Wno-reorder")
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wno-deprecated-declarations -Wno-reorder ")
   if(CLANG)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libc++")
   endif()
@@ -110,6 +119,7 @@ endif()
 include_directories(
   /usr/local/include/GLFW
   /usr/include/GLFW
+  ${COCOS2D_ROOT}/external
   ${COCOS2D_ROOT}/cocos
   ${COCOS2D_ROOT}/cocos/platform
   ${COCOS2D_ROOT}/cocos/audio/include/
@@ -143,7 +153,7 @@ else()
     add_executable(${APP_NAME} ${GAME_SRC} ${GAME_HEADERS})
 endif()
 
-target_link_libraries(${APP_NAME} cocos2d)
+target_link_libraries(${APP_NAME} cocos2d )
 
 set(APP_BIN_DIR "${CMAKE_BINARY_DIR}/bin")
 

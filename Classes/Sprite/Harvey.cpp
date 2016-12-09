@@ -26,13 +26,32 @@ Harvey* Harvey::create() {
 	auto node = new Harvey();
 	node->_eventDispatcher = Director::getInstance()->getEventDispatcher();
 	if(node->initWithFile("Harvey/soldier1.png")){
+
+
+
+
+
 		node->addEvents();
 		node->speed = 300;
 		node->movingAction = nullptr;
 		node->schedule(schedule_selector(Harvey::update), 0.01);
+
+		auto physicsBody = PhysicsBody::createBox(node->getContentSize(), PhysicsMaterial(0.1f,1.0f, 20.0f));
+		physicsBody->setDynamic(true);
+		physicsBody->setLinearDamping(0.5);
+
+		physicsBody->setLinearDamping(0.9);
+		physicsBody->setAngularDamping(0.9);
+		node->setPhysicsBody(physicsBody);
 		auto gun = Gun::create();
 		node->addChild(gun);
 		node->gun = gun;
+
+
+
+
+
+
 		return node;
 	}
 

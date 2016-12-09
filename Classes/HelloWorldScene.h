@@ -2,6 +2,7 @@
 #define __HELLOWORLD_SCENE_H__
 
 #include "cocos2d.h"
+//#include "Box2D/Box2D.h"
 
 class HelloWorld : public cocos2d::Layer
 {
@@ -9,17 +10,13 @@ public:
     static cocos2d::Scene* createScene();
 
     virtual bool init();
-    
-    // a selector callback
-    void menuCloseCallback(cocos2d::Ref* pSender);
-    void onMouseDown(cocos2d::Event* event);
-    // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
-     static HelloWorld* getInstance();
-
-     static HelloWorld* instance;
+    static HelloWorld* getInstance();
+    void initPhisics();
+    static HelloWorld* instance;
 private:
-    cocos2d::EventListenerMouse* _mouseListener;
+
+//    b2World* world;
 
 };
 
